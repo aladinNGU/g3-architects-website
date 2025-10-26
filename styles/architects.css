@@ -179,7 +179,14 @@ main > section {
 .sponsor-companies img {
   filter: grayscale(100%);
 }
-
+.footer {
+  display: flex;
+  max-width: 1440px;
+  margin: 130px auto;
+  justify-content: center;
+  background-color: #fff4e7;
+  font-weight: 400;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar,
